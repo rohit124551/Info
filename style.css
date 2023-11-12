@@ -1,0 +1,46 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Open+Sans&family=Varela+Round&display=swap');
+</style>
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type:none;
+    text-align: center;
+    color: white;
+    padding: 22px ;
+
+}
+nav{
+    background-color: black;
+    height: 60px;
+
+}
+.container{
+    justify-content: center;
+}
+nav ul li{
+    padding:0 12px;
+    border: 1px solid blue;
+}
+.container{
+    margin: 30vh;
+    
+    border: 1px solid black;
+    border-radius: 2vh;
+    background-color: rgb(165, 163, 163);
+
+}
+
+.container ul{
+    list-style-type: none;
+    padding: 25px;
+    
+}
+.container ul li {
+    padding:15px;
+    text-align: center;
+    
+}
