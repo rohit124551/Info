@@ -11,24 +11,37 @@ nav ul{
     text-align: center;
     color: white;
     padding: 22px ;
+    
 
 }
 nav{
-    background-color: black;
+  border-radius:0.5rem;
+    background-color: grey;
     height: 60px;
 
 }
 .container{
     justify-content: center;
+    padding: 50px;
 }
 nav ul li{
     padding:0 12px;
-    border: 1px solid blue;
+    
+    border-radius:0.9rem;
+    
+    color: black;
+    
+}
+nav ul li:hover{
+    background-color: beige;
 }
 .container{
-    margin: 30vh;
-    
-    border: 1px solid black;
+    margin:15vh ;
+    padding: 10px;
+        /* width:980px; */
+   
+   
+    /* border: 1px solid black; */
     border-radius: 2vh;
     background-color: rgb(165, 163, 163);
 
@@ -36,11 +49,64 @@ nav ul li{
 
 .container ul{
     list-style-type: none;
-    padding: 25px;
+    margin:50px;
+    padding:90px;
+    
     
 }
 .container ul li {
     padding:15px;
     text-align: center;
+    font-family: 'Open Sans';
     
 }
+.container ul li {
+  border:1px solid blue;
+  border-radius: 1rem;
+  margin: 10px;
+}
+.container ul li:hover{
+  background-color: aqua;
+}
+
+  .container ul li a{
+    text-decoration: none;
+  }
+  footer {
+    background-color: #8e44ad; /* Light Purple */
+    color: #ecf0f1;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: rotateColor 5s linear infinite;
+  }
+  footer p a{
+    text-decoration: none;
+    color: white;
+  }
+  footer p a:hover{
+    color:aqua;
+  }
+  footer ul li{
+    list-style-type: none;
+  }
+
+  @keyframes rotateColor {
+    0% {
+      background-color: #8e44ad; /* Light Purple */
+    }
+    25% {
+      background-color: #835083; /* Dark Purple */
+    }
+    50% {
+      background-color: #e73cd6; /* Red */
+    }
+    75% {
+      background-color: #9327ae; /* Green */
+    }
+    100% {
+      background-color: #8e44ad; /* Light Purple */
+    }
+  }
