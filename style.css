@@ -98,8 +98,16 @@ nav ul li:hover{
   }
   footer ul li{
     list-style-type: none;
+    padding: 25px;
+    display: inline;
   }
-
+  footer ul li a{
+    text-decoration: none;
+    
+  }
+footer ul li a:hover{
+  color: aquamarine;
+}
   @keyframes rotateColor {
     0% {
       background-color: #908a92; /* Light Purple */
