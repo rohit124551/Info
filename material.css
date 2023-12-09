@@ -4,9 +4,11 @@
 *{
     margin: 0;
     padding: 0;
+
 }
+
 body{
-  background-image: url('https://source.unsplash.com/1480x980/?focus');
+    background-image: url('https://source.unsplash.com/1980x980/?study');
 }
 nav ul{
     display: flex;
@@ -36,8 +38,8 @@ nav ul li{
     
 }
 nav ul li a{
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
 nav ul li:hover{
     background-color: beige;
@@ -50,7 +52,7 @@ nav ul li:hover{
    
     /* border: 1px solid black; */
     border-radius: 2vh;
-    background-color: rgba(165, 163, 163, 0.491);
+    background-color: rgba(165, 163, 163, 0.565);
 
 }
 
@@ -81,7 +83,7 @@ nav ul li:hover{
   }
   footer {
     background-color: #8e44ad; /* Light Purple */
-    color:black;
+    color: #ecf0f1;
     text-align: center;
     padding: 10px;
     position: fixed;
@@ -91,10 +93,10 @@ nav ul li:hover{
   }
   footer p a{
     text-decoration: none;
-    color: black;
+    color: white;
   }
   footer p a:hover{
-    color:rgb(15, 239, 239);
+    color:aqua;
   }
   footer ul li{
     list-style-type: none;
@@ -102,18 +104,18 @@ nav ul li:hover{
 
   @keyframes rotateColor {
     0% {
-      background-color: #908a92; /* Light Purple */
+      background-color: #8e44ad; /* Light Purple */
     }
     25% {
-      background-color: #918c91; /* Dark Purple */
+      background-color: #835083; /* Dark Purple */
     }
     50% {
-      background-color: #cfc2ce; /* Red */
+      background-color: #e73cd6; /* Red */
     }
     75% {
-      background-color: #818082; /* Green */
+      background-color: #9327ae; /* Green */
     }
     100% {
-      background-color: #585759; /* Light Purple */
+      background-color: #8e44ad; /* Light Purple */
     }
   }
