@@ -1,0 +1,44 @@
+1. Introduction
+The purpose of this document is to define the requirements for a software system that would automate the ordering and delivery process for Domino's Pizza. This system aims to enhance the customer experience by providing a more convenient and efficient way to order and track their pizza delivery.
+
+2. General Description
+The proposed software system would allow customers to place pizza orders through a web-based application or a mobile application. The system would also integrate with Domino's existing point-of-sale (POS) system and the delivery management system to streamline the entire ordering and delivery process.
+
+3. Functional Requirements
+3.1 User Registration and Authentication
+The system must allow customers to register and create an account using their email address, phone number, and a password. The system must also provide a way for customers to recover their password if they forget it. The system must ensure that only authenticated users can access their account and place an order.
+
+3.2 Menu and Order Management
+The system must provide an up-to-date menu of pizzas and other items available for purchase. The system must allow customers to customize their order by selecting toppings, crust type, and other options. The system must calculate the total cost of the order and provide a summary before the customer confirms the order.
+
+3.3 Payment Processing
+The system must integrate with a payment gateway to process online payments. The system must support multiple payment options, such as credit cards, debit cards, and e-wallets. The system must also ensure that the payment information is securely stored and transmitted.
+
+3.4 Order Tracking
+The system must provide real-time updates on the status of the order, from preparation to delivery. The system must allow customers to track the delivery person's location and estimated time of arrival. The system must also provide a way for customers to cancel the order if needed.
+
+3.5 Delivery Management
+The system must integrate with the delivery management system to optimize the delivery process. The system must assign the order to the nearest available delivery person and provide them with the necessary information, such as the delivery address, phone number, and special instructions. The system must also monitor the delivery person's progress and provide updates to the customer.
+
+4. Non-functional Requirements
+4.1 Performance
+The system must be able to handle a large number of concurrent users and orders without experiencing any significant delays or errors. The system must provide a response time of less than 2 seconds for each request.
+
+4.2 Security
+The system must ensure the confidentiality, integrity, and availability of the customer's data. The system must use encryption and other security measures to protect sensitive information, such as payment details and personal information.
+
+4.3 Usability
+The system must have an intuitive and user-friendly interface that is easy to navigate and use. The system must also be accessible to users with disabilities and support multiple languages.
+
+5. Constraints
+The software system must be developed using the following constraints:
+
+The system must be compatible with modern web browsers and mobile devices.
+The system must be scalable and maintainable.
+The system must comply with relevant laws and regulations, such as GDPR and PCI DSS.
+6. Assumptions and Dependencies
+The software system assumes the following:
+
+The delivery management system is already in place and can be integrated with the proposed system.
+The payment gateway is already available and can be integrated with the proposed system.
+The hardware and network infrastructure can support the proposed system's requirements.

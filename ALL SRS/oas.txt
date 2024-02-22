@@ -1,0 +1,38 @@
+Introduction
+The purpose of this document is to specify the requirements for an Online Assignment System (OAS) website that allows students to take online tests and assignments. This website is intended for use by students of a particular university or educational institution, and will provide a user-friendly and efficient platform for conducting assessments.
+
+Scope
+The scope of the OAS website is to provide a comprehensive platform for students to take online tests and assignments for various courses and subjects. The website should allow students to log in with their credentials, select the relevant course and section, and access the relevant assessments.
+
+Functional Requirements
+3.1 User Registration and Login
+The OAS website should allow students to register and create a new account by providing their personal and contact details, such as name, email address, and registration number. The website should also allow registered students to log in to their accounts with their credentials, such as username and password.
+
+3.2 Course and Section Selection
+The OAS website should allow students to select the relevant course and section for which they want to take the test or assignment. This should include a comprehensive list of all available courses and sections, as well as any relevant information about each course.
+
+3.3 Test and Assignment Creation
+The OAS website should allow instructors or course coordinators to create and upload various types of tests and assignments, including multiple-choice questions, short answer questions, essays, and other formats. These assessments should be tagged with the relevant course and section, and should be available to students for a specified period of time.
+
+3.4 Test and Assignment Taking
+The OAS website should allow students to take the relevant tests and assignments after selecting the course and section. The website should provide a user-friendly and efficient interface for answering the questions and submitting the responses. The website should also allow students to save their progress and resume later, if necessary.
+
+3.5 Grading and Feedback
+The OAS website should allow instructors or course coordinators to grade the submitted tests and assignments, and provide feedback to the students. The website should also provide a mechanism for students to view their grades and feedback, and track their progress over time.
+
+Non-Functional Requirements
+4.1 Security
+The OAS website should provide a secure platform for conducting assessments, and should protect the personal and academic information of students. This should include robust authentication and authorization mechanisms, as well as encryption and other security features.
+4.2 Performance
+The OAS website should be designed to support high performance and scalability, allowing for efficient processing of large numbers of assessments and users. The website should also be optimized for different devices and platforms, such as desktops, laptops, tablets, and mobile phones.
+
+4.3 Usability
+The OAS website should be easy to use and navigate for students of all skill levels. The website should provide clear and concise instructions for taking the assessments, as well as any relevant guidelines or policies.
+
+4.4 Accessibility
+The OAS website should be accessible to students with different abilities and needs, including those with visual or hearing impairments. The website should provide alternative text, audio, and video formats, as well as other accessibility features.
+
+Conclusion
+The Online Assignment System (OAS) website is an important tool for conducting assessments in a modern educational environment. This SRS document outlines the functional and non-functional requirements of the OAS website, and serves as a guide for developers and stakeholders involved in its development. With its user-friendly interface, secure platform, and efficient performance, the OAS website is an essential component of modern education.
+
+
