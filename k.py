@@ -1,6 +1,6 @@
 import os
 
-folder_path = 'E:\Info\Info\ALL SRS'  # Replace this with the path to your folder
+folder_path = 'E:\Info\cdp\cdp_report'  # Replace this with the path to your folder
 
 html_content = '''<html>
 <head>
@@ -16,11 +16,11 @@ for foldername, subfolders, filenames in os.walk(folder_path):
             link_text = os.path.basename(filename)
             link_href = os.path.relpath(file_path, folder_path).replace('\\', '/')
 
-            html_content += f'''  <a class="link" href="ALL SRS\{link_href}">{link_text}</a><br>'''
+            html_content += f''' <a class="link" href="..\cdp\cdp_report\{link_href}">{link_text}</a><br>'''
 
 html_content += '</body></html>'
 
-with open('output.html', 'w') as html_file:
+with open('cdp.html', 'w') as html_file:
     html_file.write(html_content)
 
 print("HTML file created successfully!")
