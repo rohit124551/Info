@@ -1,0 +1,1366 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="ctl00_Head1"><title>
+	Moocs/Certification
+</title>
+   
+    
+
+
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="js/jquery-ui.css" /><link href="css/Hellobar.css" rel="stylesheet" /><link href="Repository/jquery-rateyo/jquery.rateyo.min.css" rel="stylesheet" /><link href="Repository/jquery-barrating/themes/bars-square.css" rel="stylesheet" />
+    
+    <noscript>
+        <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; height: 100%; width: 100%; background-color: rgba(0,0,0,.6); padding-top: 15%; text-align: center; font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana,' sans-serif'; font-size: 20px;">
+            <div style="display: inline-block; background-color: rgba(255,255,255,.7); padding: 45px; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px;">
+                <img src="login_images/ums_logo.png" alt="" />
+                <hr style="border: solid 1px #ACACAC">
+                <p style="margin-left: 10px">JavaScript of your browser is not enabled.please enable it first to access UMS</p>
+                <p style="margin-left: 10px">How to enable Javascript : visit this link to step by step help </p>
+                <p style="margin-left: 10px"><a href="http://activatejavascript.org/en/instructions" style="background-color: #337ab7; border-bottom-color: #2e6da4; border-left-color: #2e6da4; border-right-color: #2e6da4; border-top-color: #2e6da4; color: #fff; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; padding: 5px 10px; text-decoration: none">Click Here </a></p>
+            </div>
+        </div>
+    </noscript>
+
+    <style type="text/css">
+        .RadComboBoxDropDown .rcbItem > label, .RadComboBoxDropDown .rcbHovered > label, .RadComboBoxDropDown .rcbDisabled > label, .RadComboBoxDropDown .rcbLoading > label, .RadComboBoxDropDown .rcbCheckAllItems > label, .RadComboBoxDropDown .rcbCheckAllItemsHovered > label {
+            display: inline-block !important;
+        }
+    </style>
+
+    <link href="css/tabcontent.css" rel="stylesheet" type="text/css" /><link href="css/student_ums_style.css" rel="stylesheet" type="text/css" /><link href="css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <!--bxslider start-->
+    <link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" />
+    <script src="js/jquery.bxslider.min.js" type="text/javascript"></script>
+    <!--bxslider end-->
+
+
+
+    <style type="text/css">
+        .RadMenu_Sunset .rmRootGroup {
+            border: none;
+        }
+
+
+
+        .ui-dialog {
+            position: fixed !important;
+            z-index: 90;
+            top: 100px !important;
+        }
+
+            .ui-dialog .dialog-height {
+                height: auto !important;
+            }
+
+            .ui-dialog .ui-dialog-titlebar-close span {
+                background-image: url(Images/red_cross_icon.gif) !important;
+                background-repeat: no-repeat;
+            }
+        /* for Modal css*/
+        .ui-widget-overlay {
+            position: fixed;
+            opacity: 0.8 !important;
+        }
+
+        .ui-front {
+            z-index: 1000;
+        }
+
+        .no-close .ui-dialog-titlebar-close {
+            display: none;
+        }
+
+        .disableClosedDialog {
+            margin-left: 10px;
+            background-color: none;
+            color: lightgray;
+            padding: 3px;
+            cursor: default;
+            font-weight: normal;
+        }
+
+        .enableClosedialog {
+            margin-left: 10px;
+            background-color: lightgreen;
+            color: black;
+            padding: 3px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+    </style>
+    <style>
+    body{
+        background-color: rgb(199, 199, 199);
+    }
+</style>
+
+
+
+
+<body>
+
+    <h2 align="center">MOOC/Certifications</h2>
+    <br />
+    <div class="row" style="margin-left: 5px; line-height: 30px; font-weight: bold">
+        <h4>Important Points:</h4>
+        
+        <div class="col-md-12">
+            1. Step-by-step guidelines for MOOCs/Online Certificate Courses. Please <a href="https://drive.usercontent.google.com/u/0/uc?id=1K9EAnrmHIylLO3i7kcfUFZkZVygfFWkV&export=download" target="_blank"><u><b>Click Here</b></u></a>
+        </div>
+        <!-- <div class="col-md-12">
+            2. Guidelines for academic benefit to be given after successful completion of the moocs/certification. Please <a href="#" target="_blank"><u><b>Click Here</b></u></a>
+        </div> -->
+        <div class="col-md-12">
+            2. For any query regarding Academic Benefits against MOOCs, students can either contact the concerned HoD  or raise the query through RMS . 
+        </div>
+    </div>
+
+    <br />
+    <br />
+    <div class="row" style="margin-left: 5px;">
+
+        <div class="col-md-2"><b>Start Date:</b> </div>
+        <div class="col-md-3">
+            <span id="ctl00_cphHeading_lblStartDate" class="aspLabel">19 Feb 2024</span>
+        </div>
+
+        <div class="col-md-2"><b>End Date:</b></div>
+        <div class="col-md-3">
+            <span id="ctl00_cphHeading_lblEndDate" class="aspLabel">30 Nov 2024</span>
+        </div>
+    </div>
+    
+    
+            <div>
+			<table class="table table-striped table-bordered" cellspacing="0" rules="all" border="1" id="ctl00_cphHeading_grdcoursecount" style="border-collapse:collapse;">
+				<tr>
+					<th scope="col">Term</th><th scope="col">T4</th><th scope="col">T6</th>
+				</tr><tr>
+					<td>NO. of Courses Mapped </td><td>2</td><td>2</td>
+				</tr>
+			</table>
+		</div>
+            <hr />
+            <div>
+			<table class="table table-striped table-bordered" cellspacing="0" align="Left" rules="all" border="1" id="ctl00_cphHeading_gdvCourseList" style="width:99%;border-collapse:collapse;">
+				<thead>
+					<tr>
+						<th scope="col">&nbsp;</th><th scope="col">Course</th><th scope="col">Student Term</th><th scope="col">Grade</th><th scope="col">Term</th><th scope="col">Name of MOOCs/ Certification</th><th scope="col">Type</th><th scope="col">Offered By Organisation</th><th scope="col">Details</th><th scope="col">Academic Benefit(s)</th><th scope="col">Remarks</th>
+					</tr>
+				</thead><tbody>
+					<tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnName" value="Advanced Distributed Systems" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnMappingId" value="15972" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl02$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl02_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Advanced Distributed Systems</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnName" value="Algorithmic Game Theory" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnMappingId" value="15973" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl03$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl03_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Algorithmic Game Theory</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnName" value="Cloud Computing" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnMappingId" value="15974" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl04$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl04_hdnRemarks" value="Not for Students who are registered in &quot;Cloud Computing &quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Cloud Computing</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Cloud Computing &quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnName" value="Computer Vision" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnMappingId" value="15975" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl05$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl05_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Computer Vision</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnName" value="Cyber Security and Privacy" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnMappingId" value="15976" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl06$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl06_hdnRemarks" value="Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Cyber Security and Privacy</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnName" value="Deep Learning - IIT Ropar" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnMappingId" value="15977" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl07$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl07_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Deep Learning - IIT Ropar</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+\                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnName" value="Deep Learning for Computer Vision" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnMappingId" value="15978" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl08$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl08_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Deep Learning for Computer Vision</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnName" value="Design &amp; Implementation of Human-Computer Interfaces" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnMappingId" value="15979" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl09$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl09_hdnRemarks" value="Only for B.Tech CSE" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Design &amp; Implementation of Human-Computer Interfaces</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Only for B.Tech CSE</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnName" value="Ethical Hacking" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnMappingId" value="15980" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl10$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl10_hdnRemarks" value="Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Ethical Hacking</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnName" value="Introduction to Industry 4.0 and Industrial Internet of Things" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnMappingId" value="15981" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl11$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl11_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Introduction to Industry 4.0 and Industrial Internet of Things</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnName" value="Introduction to Internet of Things" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnMappingId" value="15982" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl12$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl12_hdnRemarks" value="Not for Students who are registered in &quot;Internet of Things&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Introduction to Internet of Things</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Internet of Things&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnName" value="Introduction to Machine Learning" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnMappingId" value="15983" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl13$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl13_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Introduction to Machine Learning</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnName" value="Parameterized Algorithms" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnMappingId" value="15984" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl14$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl14_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Parameterized Algorithms</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnName" value="Practical Cyber Security for Cyber Security Practitioners" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnMappingId" value="15985" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl15$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl15_hdnRemarks" value="Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Practical Cyber Security for Cyber Security Practitioners</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnName" value="Randomized Methods in Complexity" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnMappingId" value="15986" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl16$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl16_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Randomized Methods in Complexity</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnName" value="Reinforcement Learning" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnMappingId" value="15987" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl17$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl17_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Reinforcement Learning</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnName" value="Responsible &amp; Safe AI Systems" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnMappingId" value="15988" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl18$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl18_hdnRemarks" value="Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Responsible &amp; Safe AI Systems</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnName" value="Social Network Analysis" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnMappingId" value="15989" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl19$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl19_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Social Network Analysis</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnName" value="Social Networks" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnMappingId" value="15990" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl20$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl20_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Social Networks</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnName" value="Software Testing" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnSyllabusPerc" value="100" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnType" value="Moocs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnMappingId" value="15991" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl21$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl21_hdnRemarks" value="Not for Students who are registered in &quot;Software Methodologies and Testing&quot; as Engineering Minor" />
+                        </td><td style="width:15%;">
+                            <b>CSE393</b> - ONLINE ACADEMIC COURSE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Software Testing</td><td>Moocs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>100
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">Not for Students who are registered in &quot;Software Methodologies and Testing&quot; as Engineering Minor</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnName" value="Computer Vision" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnSyllabusPerc" value="85" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnType" value="MOOCs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnMappingId" value="16233" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl22$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl22_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>INT345</b> - COMPUTER VISION
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">6</td><td style="width:15%;">Computer Vision</td><td>MOOCs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>85
+                        </td><td style="width:15%;">All Evalaution parameters shall be exempted and the marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnName" value="Introduction To Machine Learning - IITKGP" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnSyllabusPerc" value="55" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnType" value="MOOCs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnMappingId" value="16235" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl23$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl23_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>INT354</b> - MACHINE LEARNING-I
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">4</td><td style="width:15%;">Introduction To Machine Learning - IITKGP</td><td>MOOCs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>55
+                        </td><td style="width:15%;">All academic tasks  and Mid Term exam shall be exempted and marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnName" value="Artificial Intelligence : Search Methods For Problem solving" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnSyllabusPerc" value="30" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnType" value="MOOCs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnMappingId" value="16204" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnGrade" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnGrade" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnStudentTerm" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl24$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl24_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>INT404</b> - ARTIFICIAL INTELLIGENCE
+                        </td><td style="width:5%;">&nbsp;</td><td style="width:5%;">&nbsp;</td><td style="width:5%;">4</td><td style="width:15%;">Artificial Intelligence : Search Methods For Problem solving</td><td>MOOCs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>30
+                        </td><td style="width:15%;">One academic task shall be exempted and the marks shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr><tr>
+						<td>
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnName" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnName" value="Engineering Mathematics - I" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnIsProctored" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnIsProctored" value="Yes" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnSyllabusPerc" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnSyllabusPerc" value="67" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnType" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnType" value="MOOCs" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnMappingId" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnMappingId" value="16201" />
+                            <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnStudentTerm" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnStudentTerm" value="123241" />
+                             <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnOrganisation" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnOrganisation" value="NPTEL" />
+                               <input type="hidden" name="ctl00$cphHeading$gdvCourseList$ctl25$hdnRemarks" id="ctl00_cphHeading_gdvCourseList_ctl25_hdnRemarks" />
+                        </td><td style="width:15%;">
+                            <b>MTH174</b> - ENGINEERING MATHEMATICS 
+                        </td><td style="width:5%;"></td><td style="width:5%;"></td><td style="width:5%;">1</td><td style="width:15%;">Engineering Mathematics - I</td><td>MOOCs</td><td>NPTEL</td><td style="width:15%;">
+                            <b>IsProctored:</b> Yes
+                            <br />
+                            <br />
+                            <b>Percentage of Syllabus Mapped:</b>67
+                        </td><td style="width:15%;">All academic tasks  and Mid Term exam shall be exempted and marks  shall be awarded as per guidelines </td><td style="width:10%;">&nbsp;</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+            <div id="ctl00_cphHeading_updatePanel">
+			
+
+                    <span id="ctl00_cphHeading_lblMsg" class="aspLabel" style="font-size:Large;font-weight:bold;margin-left: 100px;"></span>
+
+                    <div id="ctl00_cphHeading_divForm" style="display:none;">
+                        
+                        <table align="center" class="table table-bordered" width="80%" cellspacing="1" cellpadding="1" border="0" style="display: none;">
+                            
+                            <tr>
+                                <td scope='col' width="25%">Name : 
+                                </td>
+                                <td scope='col'>
+
+                                    <span id="ctl00_cphHeading_lblShowName" class="aspLabel">Rohit Kumar Ranjan</span>
+                                </td>
+                                
+                                <td scope='col'>Verification Id : 
+                                </td>
+                                <td scope='col'>
+                                    <span id="ctl00_cphHeading_lblShowRegNo" class="aspLabel">12315823</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'>Programme : 
+                                </td>
+                                <td scope='col'>
+                                    <span id="ctl00_cphHeading_lblShowProgramme" class="aspLabel">P132 :: B.Tech. (Computer Science and Engineering)</span>
+                                </td>
+                                <td scope='col'>Batch Year : 
+                                </td>
+                                <td scope='col'>
+                                    <span id="ctl00_cphHeading_lblBatchYear" class="aspLabel">2023</span>
+                                </td>
+                            </tr>
+                        </table>
+                        <br />
+
+                        <table align="center" class="table table-bordered" width="80%" cellspacing="1" cellpadding="1" border="0">
+
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Select the course against which you wish to pursue the MOOC/Certificate Course</b>
+                                </td>
+                                <td scope='col'>
+                                    
+                                    
+                                    <select name="ctl00$cphHeading$ddlCourseCode" id="ctl00_cphHeading_ddlCourseCode" class="form-control">
+				<option value="0">Select</option>
+				<option value="CSE327">CSE327:SIMULATION AND MODELLING (DEPARTMENT ELECTIVE 1)</option>
+				<option value="CSE328">CSE328:SIMULATION AND MODELLING LABORATORY (DEPARTMENT ELECTIVE 1 LAB)</option>
+				<option value="CSE335">CSE335:COMBINATORIAL STUDIES-III (PATHWAY ELECTIVE 4)</option>
+				<option value="CSE339">CSE339:CAPSTONE PROJECT-I</option>
+				<option value="CSE379">CSE379:MOBILE AUTOMATED TESTING (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="CSE406">CSE406:ADVANCED JAVA PROGRAMMING (DEPARTMENT ELECTIVE 1)</option>
+				<option value="CSE434">CSE434:GAME DEVELOPMENT IN 3D (DEPARTMENT ELECTIVE 1)</option>
+				<option value="CSE436">CSE436:BLOCKCHAIN (DEPARTMENT ELECTIVE 1)</option>
+				<option value="CSE447">CSE447:INDUSTRY CO-OP PROJECT-I</option>
+				<option value="ECE140">ECE140:WORKSHOP ON IOT FOR DIGITAL SOCIETY (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="INT251">INT251:MALWARE ANALYSIS AND CYBER DEFENCE (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="INT253">INT253:WEB DEVELOPMENT IN PYTHON USING DJANGO (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="INT301">INT301:OPEN SOURCE TECHNOLOGIES (DEPARTMENT ELECTIVE 1)</option>
+				<option value="INT315">INT315:CLUSTER COMPUTING (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="INT328">INT328:NETWORK VIRTUALIZATION AND CLOUD SECURITY (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="INT402">INT402:MODERN WEB PROGRAMMING TOOLS AND TECHNIQUES (DEPARTMENT ELECTIVE 1)</option>
+				<option value="INT422">INT422:DEEP LEARNING (ENGINEERING MINOR ELECTIVE 6)</option>
+				<option value="CSE403">CSE403:NETWORK SECURITY AND CRYPTOGRAPHY (DEPARTMENT ELECTIVE 2)</option>
+				<option value="CSE435">CSE435:COMPREHENSIVE SEMINAR</option>
+				<option value="CSE439">CSE439:CAPSTONE PROJECT-II</option>
+				<option value="CSE441">CSE441:INDUSTRY INTERNSHIP PROJECT (TRAINING ELECTIVE 2)</option>
+				<option value="CSE448">CSE448:INDUSTRY CO-OP PROJECT-II (TRAINING ELECTIVE 2)</option>
+				<option value="CSE493">CSE493:LINUX SYSTEM ADMINISTRATION  (DEPARTMENT ELECTIVE 2)</option>
+				<option value="CSE504">CSE504:STORAGE TECHNOLOGY FOUNDATION (DEPARTMENT ELECTIVE 2)</option>
+				<option value="CSE507">CSE507:STORAGE TECHNOLOGY FOUNDATION LABORATORY (DEPARTMENT ELECTIVE 2 LAB)</option>
+				<option value="INT411">INT411:SOFTWARE PROJECT MANAGEMENT (DEPARTMENT ELECTIVE 2)</option>
+				<option value="INT416">INT416:SOFTWARE PROJECT MANAGEMENT LABORATORY (DEPARTMENT ELECTIVE 2 LAB)</option>
+				<option value="CHE110">CHE110:ENVIRONMENTAL STUDIES (CORE ELECTIVE 2)</option>
+				<option value="CSE111">CSE111:ORIENTATION TO COMPUTING-I</option>
+				<option value="CSE326">CSE326:INTERNET PROGRAMMING LABORATORY</option>
+				<option value="ECE249">ECE249:BASIC ELECTRICAL AND ELECTRONICS ENGINEERING (CORE ELECTIVE 1)</option>
+				<option value="ECE279">ECE279:BASIC ELECTRICAL AND ELECTRONICS ENGINEERING LABORATORY (CORE ELECTIVE 3)</option>
+				<option value="INT108">INT108:PYTHON PROGRAMMING</option>
+				<option value="MEC136">MEC136:ENGINEERING GRAPHICS AND DIGITAL FABRICATION (CORE ELECTIVE 1)</option>
+				<option value="MTH174">MTH174:ENGINEERING MATHEMATICS </option>
+				<option value="PES318">PES318:SOFT SKILLS-I</option>
+				<option value="PHY110">PHY110:ENGINEERING PHYSICS (CORE ELECTIVE 2)</option>
+				<option value="CHE110">CHE110:ENVIRONMENTAL STUDIES (CORE ELECTIVE 2)</option>
+				<option value="CSE101">CSE101:COMPUTER PROGRAMMING</option>
+				<option value="CSE121">CSE121:ORIENTATION TO COMPUTING-II</option>
+				<option value="CSE320">CSE320:SOFTWARE ENGINEERING</option>
+				<option value="ECE249">ECE249:BASIC ELECTRICAL AND ELECTRONICS ENGINEERING (CORE ELECTIVE 1)</option>
+				<option value="ECE279">ECE279:BASIC ELECTRICAL AND ELECTRONICS ENGINEERING LABORATORY (CORE ELECTIVE 3)</option>
+				<option value="INT306">INT306:DATABASE MANAGEMENT SYSTEMS</option>
+				<option value="MEC136">MEC136:ENGINEERING GRAPHICS AND DIGITAL FABRICATION (CORE ELECTIVE 1)</option>
+				<option value="MTH401">MTH401:DISCRETE MATHEMATICS</option>
+				<option value="PEL121">PEL121:COMMUNICATION SKILLS-I (LANGUAGE ELECTIVE 1)</option>
+				<option value="PEL125">PEL125:UPPER INTERMEDIATE COMMUNICATION SKILLS-I (LANGUAGE ELECTIVE 1)</option>
+				<option value="PEL130">PEL130:ADVANCED COMMUNICATION SKILLS-I (LANGUAGE ELECTIVE 1)</option>
+				<option value="PHY110">PHY110:ENGINEERING PHYSICS (CORE ELECTIVE 2)</option>
+				<option value="CSE202">CSE202:OBJECT ORIENTED PROGRAMMING</option>
+				<option value="CSE205">CSE205:DATA STRUCTURES AND ALGORITHMS</option>
+				<option value="CSE211">CSE211:COMPUTER ORGANIZATION AND DESIGN</option>
+				<option value="CSE306">CSE306:COMPUTER NETWORKS</option>
+				<option value="CSE307">CSE307:INTERNETWORKING ESSENTIALS</option>
+				<option value="CSE316">CSE316:OPERATING SYSTEMS (CORE ELECTIVE 4)</option>
+				<option value="CSE325">CSE325:OPERATING SYSTEMS LABORATORY (CORE ELECTIVE 5)</option>
+				<option value="GEN231">GEN231:COMMUNITY DEVELOPMENT PROJECT</option>
+				<option value="MTH302">MTH302:PROBABILITY AND STATISTICS (CORE ELECTIVE 4)</option>
+				<option value="PEL132">PEL132:COMMUNICATION SKILLS-II (LANGUAGE ELECTIVE 2)</option>
+				<option value="PEL134">PEL134:UPPER INTERMEDIATE COMMUNICATION SKILLS-II (LANGUAGE ELECTIVE 2)</option>
+				<option value="PEL136">PEL136:ADVANCED COMMUNICATION SKILLS-II (LANGUAGE ELECTIVE 2)</option>
+				<option value="CSE310">CSE310:PROGRAMMING IN JAVA</option>
+				<option value="CSE316">CSE316:OPERATING SYSTEMS (CORE ELECTIVE 4)</option>
+				<option value="CSE325">CSE325:OPERATING SYSTEMS LABORATORY (CORE ELECTIVE 5)</option>
+				<option value="CSE374">CSE374:ADVANCE SOFTWARE ENGINEERING (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="CSE375">CSE375:SOFTWARE TESTING (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="CSE408">CSE408:DESIGN AND ANALYSIS OF ALGORITHMS</option>
+				<option value="ECE217">ECE217:INTRODUCTION TO INTERNET OF THINGS (IOT) (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="ECE341">ECE341:PROGRAMMING IOT (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT217">INT217:INTRODUCTION TO DATA MANAGEMENT (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="INT219">INT219:FRONT END WEB DEVELOPER (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="INT222">INT222:ADVANCED WEB DEVELOPMENT (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT232">INT232:DATA SCIENCE TOOLBOX : R PROGRAMMING (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT242">INT242:CYBER SECURITY ESSENTIALS (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="INT249">INT249:SYSTEM ADMINISTRATION (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT254">INT254:FUNDAMENTALS OF MACHINE LEARNING (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="INT330">INT330:MANAGING CLOUD SOLUTIONS (ENGINEERING MINOR ELECTIVE 1)</option>
+				<option value="INT354">INT354:MACHINE LEARNING-I (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT362">INT362:CLOUD ARCHITECTURE AND IMPLEMENTATION-I (ENGINEERING MINOR ELECTIVE 2)</option>
+				<option value="INT404">INT404:ARTIFICIAL INTELLIGENCE</option>
+				<option value="MTH302">MTH302:PROBABILITY AND STATISTICS (CORE ELECTIVE 4)</option>
+				<option value="PEA305">PEA305:ANALYTICAL SKILLS-I (APTITUDE ELECTIVE 1)</option>
+				<option value="PEA307">PEA307:ADVANCED ANALYTICAL SKILLS-I (APTITUDE ELECTIVE 1)</option>
+				<option value="CSE322">CSE322:FORMAL LANGUAGES AND AUTOMATION THEORY</option>
+				<option value="CSE329">CSE329:PRELUDE TO COMPETITIVE CODING (PATHWAY ELECTIVE 1)</option>
+				<option value="CSE330">CSE330:COMPETITIVE CODING APPROACHES-TECHNIQUES (PATHWAY ELECTIVE 2)</option>
+				<option value="CSE333">CSE333:COMBINATORIAL STUDIES-I (PATHWAY ELECTIVE 2)</option>
+				<option value="CSE343">CSE343:TRAINING IN PROGRAMMING (TRAINING ELECTIVE 1)</option>
+				<option value="CSE376">CSE376:AUTOMATED TESTING (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="CSE377">CSE377:ADVANCE TESTING TECHNOLOGIES (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="CSE443">CSE443:SEMINAR ON SUMMER TRAINING (TRAINING ELECTIVE 1)</option>
+				<option value="ECE128">ECE128:INTRODUCTION TO IOT NETWORKING PROTOCOLS (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="ECE237">ECE237:ARCHITECTING SMART IOT DEVICES (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="INT220">INT220:SERVER SIDE SCRIPTING (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="INT233">INT233:DATA VISUALIZATION (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="INT234">INT234:PREDICTIVE ANALYTICS (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="INT244">INT244:SECURING COMPUTING SYSTEMS (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="INT250">INT250:DIGITAL EVIDENCE ANALYSIS (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="INT252">INT252:WEB APP DEVELOPMENT WITH REACTJS (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="INT344">INT344:NATURAL LANGUAGE PROCESSING (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="INT363">INT363:CLOUD MICROSERVICES (ENGINEERING MINOR ELECTIVE 3)</option>
+				<option value="INT364">INT364:CLOUD ARCHITECTURE AND IMPLEMENTATION-II (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="INT423">INT423:MACHINE LEARNING-II (ENGINEERING MINOR ELECTIVE 4)</option>
+				<option value="PEA306">PEA306:ANALYTICAL SKILLS-II (PATHWAY ELECTIVE 1)</option>
+				<option value="PEA308">PEA308:ADVANCED ANALYTICAL SKILLS-II (PATHWAY ELECTIVE 1)</option>
+				<option value="PEV112">PEV112:VERBAL ABILITY (PATHWAY ELECTIVE 2)</option>
+				<option value="PEV113">PEV113:UPPERINTERMEDIATE  VERBAL ABILITY (PATHWAY ELECTIVE 2)</option>
+				<option value="PEV114">PEV114: ADVANCED -VERBAL ABILITY (PATHWAY ELECTIVE 2)</option>
+				<option value="CSE331">CSE331:CODING PEARLS (PATHWAY ELECTIVE 3)</option>
+				<option value="CSE332">CSE332:INDUSTRY ETHICS AND LEGAL ISSUES</option>
+				<option value="CSE334">CSE334:COMBINATORIAL STUDIES-II (PATHWAY ELECTIVE 3)</option>
+				<option value="CSE357">CSE357:COMBINATORIAL STUDIES (PATHWAY ELECTIVE 3)</option>
+				<option value="CSE378">CSE378:WEBSERVICES API AUTOMATION TESTING (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="CSE393">CSE393:ONLINE ACADEMIC COURSE</option>
+				<option value="ECE129">ECE129:IOT FOR DIGITAL SOCIETY (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="INT221">INT221:MVC PROGRAMMING (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="INT245">INT245:PENETRATION TESTING (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="INT312">INT312:BIG DATA FUNDAMENTALS (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="INT327">INT327:CLOUD INFRASTRUCTURE AND RESOURCE MANAGEMENT (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="INT345">INT345:COMPUTER VISION (ENGINEERING MINOR ELECTIVE 5)</option>
+				<option value="PES319">PES319:SOFT SKILLS-II (PATHWAY ELECTIVE 4)</option>
+				<option value="CSE304">CSE304:COMPUTER GRAPHICS AND VISUALIZATION (DEPARTMENT ELECTIVE 1)</option>
+
+			</select>
+                                    <br />
+                                    <span id="ctl00_cphHeading_lblRemarks" class="aspLabel"></span>
+                                    
+
+                                    <span id="ctl00_cphHeading_rfvddlCourseCode" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+
+                                    
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td scope="col" width="25%"><span class="text-danger" style="font-size: large;">*</span><b> I wish to register for </b>
+                                </td>
+                                <td scope='col' align="left">
+                                    <table id="ctl00_cphHeading_rbtRegister" class="aspRadioButtonList" style="width:50%;">
+				<tr>
+					<td><span><input id="ctl00_cphHeading_rbtRegister_0" type="radio" name="ctl00$cphHeading$rbtRegister" value="MOOCs" /><label for="ctl00_cphHeading_rbtRegister_0">MOOCs</label></span></td><td><span><input id="ctl00_cphHeading_rbtRegister_1" type="radio" name="ctl00$cphHeading$rbtRegister" value="Certificate Course" /><label for="ctl00_cphHeading_rbtRegister_1">Certificate Course</label></span></td>
+				</tr>
+			</table>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator9" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Organization/Institute/Platform offering MOOC/Certificate Course</b>
+                                </td>
+                                <td scope='col'>
+                                
+                                    <div id="ctl00_cphHeading_pnlTextBox">
+				
+                                        <input name="ctl00$cphHeading$txtAnyOther" type="text" id="ctl00_cphHeading_txtAnyOther" class="form-control" style="height:30px;width:90%;" />
+                                        <span id="ctl00_cphHeading_RequiredFieldValidator11" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                    
+			</div>
+                                    <input type="hidden" name="ctl00$cphHeading$hdnStudentTerm" id="ctl00_cphHeading_hdnStudentTerm" />
+
+                                    
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Name of the MOOC/Certificate course you wish to register for </b>
+                                </td>
+                                <td scope='col'>
+                                    <input name="ctl00$cphHeading$txtNameofCourse" type="text" maxlength="1000" id="ctl00_cphHeading_txtNameofCourse" class="form-control" style="height:30px;width:90%;" />
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator10" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Enter the URL/Web link of the Organization/Institute/Platform where the MOOC/Certificate course details are available</b>
+                                </td>
+                                <td scope='col'>
+                                    <input name="ctl00$cphHeading$txtUrl" type="text" id="ctl00_cphHeading_txtUrl" class="form-control" style="height:30px;width:90%;" />
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator16" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+
+                            <tr style="display: none;">
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Ownership of Organization /Institute/ Platform offering MOOC/ Certificate course</b>
+                                </td>
+                                <td scope='col' align="left">
+                                    
+                                    <table id="ctl00_cphHeading_rbtAgency" class="aspRadioButtonList" style="width:50%;">
+				<tr>
+					<td><span><input id="ctl00_cphHeading_rbtAgency_0" type="radio" name="ctl00$cphHeading$rbtAgency" value="Private" checked="checked" /><label for="ctl00_cphHeading_rbtAgency_0">Private</label></span></td><td><span><input id="ctl00_cphHeading_rbtAgency_1" type="radio" name="ctl00$cphHeading$rbtAgency" value="Government" /><label for="ctl00_cphHeading_rbtAgency_1">Government</label></span></td>
+				</tr>
+			</table>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator8" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Type of Organization /Institute/ Platform offering MOOC/ Certificate course</b>
+                                </td>
+                                <td scope='col' align="left">
+                                    
+                                    <table id="ctl00_cphHeading_rbtNation" class="aspRadioButtonList" style="width:50%;">
+				<tr>
+					<td><span><input id="ctl00_cphHeading_rbtNation_0" type="radio" name="ctl00$cphHeading$rbtNation" value="National" /><label for="ctl00_cphHeading_rbtNation_0">National (Indian)</label></span></td><td><span><input id="ctl00_cphHeading_rbtNation_1" type="radio" name="ctl00$cphHeading$rbtNation" value="International" /><label for="ctl00_cphHeading_rbtNation_1">International</label></span></td>
+				</tr>
+			</table>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator7" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>MOOC/ Certificate course Start Date</b>
+                                </td>
+                                <td scope='col'>
+                                    
+
+                                    <div id="ctl00_cphHeading_datepicker_wrapper" class="RadPicker RadPicker_Default" style="display:inline-block;height:30px;width:60%;">
+				<input style="visibility:hidden;display:block;float:right;margin:0 0 -1px -1px;width:1px;height:1px;overflow:hidden;border:0;padding:0;" id="ctl00_cphHeading_datepicker" name="ctl00$cphHeading$datepicker" type="text" class="rdfd_ radPreventDecorate" value="" title="Visually hidden input created for functionality purposes." /><table cellspacing="0" class="rcTable rcSingle" summary="Table holding date picker control for selection of dates." style="width:100%;">
+					<caption style="display:none;">
+						RadDatePicker
+					</caption><thead style="display:none;">
+						<tr>
+							<th scope="col">RadDatePicker</th>
+						</tr>
+					</thead><tbody>
+						<tr>
+							<td class="rcInputCell" style="width:100%;"><span id="ctl00_cphHeading_datepicker_dateInput_wrapper" class="riSingle RadInput RadInput_Default" style="display:block;width:100%;"><input id="ctl00_cphHeading_datepicker_dateInput" name="ctl00$cphHeading$datepicker$dateInput" class="riTextBox riEnabled" type="text" style="height:30px;" /><input id="ctl00_cphHeading_datepicker_dateInput_ClientState" name="ctl00_cphHeading_datepicker_dateInput_ClientState" type="hidden" /></span></td><td><a title="Open the calendar popup." href="#" id="ctl00_cphHeading_datepicker_popupButton" class="rcCalPopup">Open the calendar popup.</a><div id="ctl00_cphHeading_datepicker_calendar_wrapper" style="display:none;">
+								<table id="ctl00_cphHeading_datepicker_calendar" cellspacing="0" class="RadCalendar RadCalendar_Default">
+									<caption>
+										<span style='display:none;'>Calendar</span>
+									</caption><thead>
+										<tr>
+											<td class="rcTitlebar"><table cellspacing="0">
+												<caption>
+													<span style='display:none;'>Title and navigation</span>
+												</caption><thead>
+													<tr style="display:none;">
+														<th scope="col">Title and navigation</th>
+													</tr>
+												</thead><tbody>
+	<tr>
+		<td><a id="ctl00_cphHeading_datepicker_calendar_FNP" class="rcFastPrev" title="&lt;&lt;" href="#">&lt;&lt;</a></td><td><a id="ctl00_cphHeading_datepicker_calendar_NP" class="rcPrev" title="&lt;" href="#">&lt;</a></td><td id="ctl00_cphHeading_datepicker_calendar_Title" class="rcTitle">July, 2024</td><td><a id="ctl00_cphHeading_datepicker_calendar_NN" class="rcNext" title=">" href="#">&gt;</a></td><td><a id="ctl00_cphHeading_datepicker_calendar_FNN" class="rcFastNext" title=">>" href="#">&lt;&lt;</a></td>
+	</tr>
+</tbody>
+											</table></td>
+										</tr>
+									</thead><tbody>
+	<tr>
+		<td class="rcMain"><table id="ctl00_cphHeading_datepicker_calendar_Top" class="rcMainTable" cellspacing="0">
+	<caption>
+		<span style='display:none;'>July, 2024</span>
+	</caption><thead>
+		<tr class="rcWeek">
+			<th class="rcViewSel" scope="col">&nbsp;</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_1" title="Sunday" scope="col">S</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_2" title="Monday" scope="col">M</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_3" title="Tuesday" scope="col">T</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_4" title="Wednesday" scope="col">W</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_5" title="Thursday" scope="col">T</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_6" title="Friday" scope="col">F</th><th id="ctl00_cphHeading_datepicker_calendar_Top_cs_7" title="Saturday" scope="col">S</th>
+		</tr>
+	
+</table></td>
+	</tr>
+</tbody>
+								</table><input type="hidden" name="ctl00_cphHeading_datepicker_calendar_SD" id="ctl00_cphHeading_datepicker_calendar_SD" value="[]" /><input type="hidden" name="ctl00_cphHeading_datepicker_calendar_AD" id="ctl00_cphHeading_datepicker_calendar_AD" value="[[2021,1,1],[2025,1,1],[2024,7,19]]" />
+							</div></td>
+						</tr>
+					</tbody>
+				</table><input id="ctl00_cphHeading_datepicker_ClientState" name="ctl00_cphHeading_datepicker_ClientState" type="hidden" />
+			</div>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator6" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>MOOC/ Certificate course End Date</b>
+                                </td>
+                                <td scope='col'>
+                                    
+
+                                    <div id="ctl00_cphHeading_datepicker2_wrapper" class="RadPicker RadPicker_Default" style="display:inline-block;height:30px;width:60%;">
+				<input style="visibility:hidden;display:block;float:right;margin:0 0 -1px -1px;width:1px;height:1px;overflow:hidden;border:0;padding:0;" id="ctl00_cphHeading_datepicker2" name="ctl00$cphHeading$datepicker2" type="text" class="rdfd_ radPreventDecorate" value="" title="Visually hidden input created for functionality purposes." /><table cellspacing="0" class="rcTable rcSingle" summary="Table holding date picker control for selection of dates." style="width:100%;">
+					<caption style="display:none;">
+						RadDatePicker
+					</caption><thead style="display:none;">
+						<tr>
+							<th scope="col">RadDatePicker</th>
+						</tr>
+					</thead><tbody>
+						<tr>
+							<td class="rcInputCell" style="width:100%;"><span id="ctl00_cphHeading_datepicker2_dateInput_wrapper" class="riSingle RadInput RadInput_Default" style="display:block;width:100%;"><input id="ctl00_cphHeading_datepicker2_dateInput" name="ctl00$cphHeading$datepicker2$dateInput" class="riTextBox riEnabled" type="text" style="height:30px;" /><input id="ctl00_cphHeading_datepicker2_dateInput_ClientState" name="ctl00_cphHeading_datepicker2_dateInput_ClientState" type="hidden" /></span></td><td><a title="Open the calendar popup." href="#" id="ctl00_cphHeading_datepicker2_popupButton" class="rcCalPopup">Open the calendar popup.</a><div id="ctl00_cphHeading_datepicker2_calendar_wrapper" style="display:none;">
+								<table id="ctl00_cphHeading_datepicker2_calendar" cellspacing="0" class="RadCalendar RadCalendar_Default">
+									<caption>
+										<span style='display:none;'>Calendar</span>
+									</caption><thead>
+										<tr>
+											<td class="rcTitlebar"><table cellspacing="0">
+												<caption>
+													<span style='display:none;'>Title and navigation</span>
+												</caption><thead>
+													<tr style="display:none;">
+														<th scope="col">Title and navigation</th>
+													</tr>
+												</thead><tbody>
+	<tr>
+		<td><a id="ctl00_cphHeading_datepicker2_calendar_FNP" class="rcFastPrev" title="&lt;&lt;" href="#">&lt;&lt;</a></td><td><a id="ctl00_cphHeading_datepicker2_calendar_NP" class="rcPrev" title="&lt;" href="#">&lt;</a></td><td id="ctl00_cphHeading_datepicker2_calendar_Title" class="rcTitle">July, 2024</td><td><a id="ctl00_cphHeading_datepicker2_calendar_NN" class="rcNext" title=">" href="#">&gt;</a></td><td><a id="ctl00_cphHeading_datepicker2_calendar_FNN" class="rcFastNext" title=">>" href="#">&lt;&lt;</a></td>
+	</tr>
+</tbody>
+											</table></td>
+										</tr>
+									</thead><tbody>
+	<tr>
+		<td class="rcMain"><table id="ctl00_cphHeading_datepicker2_calendar_Top" class="rcMainTable" cellspacing="0">
+	<caption>
+		<span style='display:none;'>July, 2024</span>
+	</caption><thead>
+		<tr class="rcWeek">
+			<th class="rcViewSel" scope="col">&nbsp;</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_1" title="Sunday" scope="col">S</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_2" title="Monday" scope="col">M</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_3" title="Tuesday" scope="col">T</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_4" title="Wednesday" scope="col">W</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_5" title="Thursday" scope="col">T</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_6" title="Friday" scope="col">F</th><th id="ctl00_cphHeading_datepicker2_calendar_Top_cs_7" title="Saturday" scope="col">S</th>
+		</tr>
+	</thead><tbody>
+		<tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_1" scope="row">27</th><td class="rcOtherMonth" title="Sunday, June 30, 2024"><a href="#">30</a></td><td title="Monday, July 01, 2024"><a href="#">1</a></td><td title="Tuesday, July 02, 2024"><a href="#">2</a></td><td title="Wednesday, July 03, 2024"><a href="#">3</a></td><td title="Thursday, July 04, 2024"><a href="#">4</a></td><td title="Friday, July 05, 2024"><a href="#">5</a></td><td class="rcWeekend" title="Saturday, July 06, 2024"><a href="#">6</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_2" scope="row">28</th><td class="rcWeekend" title="Sunday, July 07, 2024"><a href="#">7</a></td><td title="Monday, July 08, 2024"><a href="#">8</a></td><td title="Tuesday, July 09, 2024"><a href="#">9</a></td><td title="Wednesday, July 10, 2024"><a href="#">10</a></td><td title="Thursday, July 11, 2024"><a href="#">11</a></td><td title="Friday, July 12, 2024"><a href="#">12</a></td><td class="rcWeekend" title="Saturday, July 13, 2024"><a href="#">13</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_3" scope="row">29</th><td class="rcWeekend" title="Sunday, July 14, 2024"><a href="#">14</a></td><td title="Monday, July 15, 2024"><a href="#">15</a></td><td title="Tuesday, July 16, 2024"><a href="#">16</a></td><td title="Wednesday, July 17, 2024"><a href="#">17</a></td><td title="Thursday, July 18, 2024"><a href="#">18</a></td><td title="Friday, July 19, 2024"><a href="#">19</a></td><td class="rcWeekend" title="Saturday, July 20, 2024"><a href="#">20</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_4" scope="row">30</th><td class="rcWeekend" title="Sunday, July 21, 2024"><a href="#">21</a></td><td title="Monday, July 22, 2024"><a href="#">22</a></td><td title="Tuesday, July 23, 2024"><a href="#">23</a></td><td title="Wednesday, July 24, 2024"><a href="#">24</a></td><td title="Thursday, July 25, 2024"><a href="#">25</a></td><td title="Friday, July 26, 2024"><a href="#">26</a></td><td class="rcWeekend" title="Saturday, July 27, 2024"><a href="#">27</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_5" scope="row">31</th><td class="rcWeekend" title="Sunday, July 28, 2024"><a href="#">28</a></td><td title="Monday, July 29, 2024"><a href="#">29</a></td><td title="Tuesday, July 30, 2024"><a href="#">30</a></td><td title="Wednesday, July 31, 2024"><a href="#">31</a></td><td class="rcOtherMonth" title="Thursday, August 01, 2024"><a href="#">1</a></td><td class="rcOtherMonth" title="Friday, August 02, 2024"><a href="#">2</a></td><td class="rcOtherMonth" title="Saturday, August 03, 2024"><a href="#">3</a></td>
+		</tr><tr class="rcRow">
+			<th id="ctl00_cphHeading_datepicker2_calendar_Top_rs_6" scope="row">32</th><td class="rcOtherMonth" title="Sunday, August 04, 2024"><a href="#">4</a></td><td class="rcOtherMonth" title="Monday, August 05, 2024"><a href="#">5</a></td><td class="rcOtherMonth" title="Tuesday, August 06, 2024"><a href="#">6</a></td><td class="rcOtherMonth" title="Wednesday, August 07, 2024"><a href="#">7</a></td><td class="rcOtherMonth" title="Thursday, August 08, 2024"><a href="#">8</a></td><td class="rcOtherMonth" title="Friday, August 09, 2024"><a href="#">9</a></td><td class="rcOtherMonth" title="Saturday, August 10, 2024"><a href="#">10</a></td>
+		</tr>
+	</tbody>
+</table></td>
+	</tr>
+</tbody>
+								</table><input type="hidden" name="ctl00_cphHeading_datepicker2_calendar_SD" id="ctl00_cphHeading_datepicker2_calendar_SD" value="[]" /><input type="hidden" name="ctl00_cphHeading_datepicker2_calendar_AD" id="ctl00_cphHeading_datepicker2_calendar_AD" value="[[2021,1,1],[2025,1,1],[2024,7,19]]" />
+							</div></td>
+						</tr>
+					</tbody>
+				</table><input id="ctl00_cphHeading_datepicker2_ClientState" name="ctl00_cphHeading_datepicker2_ClientState" type="hidden" />
+			</div>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator13" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Mode of Assessment of MOOC/ Certificate Course </b>
+                                </td>
+                                <td align="left" scope='col'>
+                                    <table id="ctl00_cphHeading_rbtPatternofExamination" class="aspRadioButtonList" style="width:50%;">
+				<tr>
+					<td><span><input id="ctl00_cphHeading_rbtPatternofExamination_0" type="radio" name="ctl00$cphHeading$rbtPatternofExamination" value="Online" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$cphHeading$rbtPatternofExamination$0\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="ctl00_cphHeading_rbtPatternofExamination_0">Online Examination</label></span></td><td><span><input id="ctl00_cphHeading_rbtPatternofExamination_1" type="radio" name="ctl00$cphHeading$rbtPatternofExamination" value="Offline" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$cphHeading$rbtPatternofExamination$1\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="ctl00_cphHeading_rbtPatternofExamination_1">Offline Examination</label></span></td><td><span><input id="ctl00_cphHeading_rbtPatternofExamination_2" type="radio" name="ctl00$cphHeading$rbtPatternofExamination" value="No" onclick="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$cphHeading$rbtPatternofExamination$2\&#39;,\&#39;\&#39;)&#39;, 0)" /><label for="ctl00_cphHeading_rbtPatternofExamination_2">No Examination</label></span></td>
+				</tr>
+			</table>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator3" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>In case of Online Examination, the mode will be</b>
+                                </td>
+                                <td align="left" scope='col'>
+                                    <div id="ctl00_cphHeading_Panel2">
+				
+                                        <table id="ctl00_cphHeading_rbtProctored" class="aspRadioButtonList" style="width:50%;">
+					<tr>
+						<td><span><input id="ctl00_cphHeading_rbtProctored_0" type="radio" name="ctl00$cphHeading$rbtProctored" value="Proctored" /><label for="ctl00_cphHeading_rbtProctored_0">Proctored</label></span></td><td><span><input id="ctl00_cphHeading_rbtProctored_1" type="radio" name="ctl00$cphHeading$rbtProctored" value="Not-Proctored" /><label for="ctl00_cphHeading_rbtProctored_1">Not-Proctored</label></span></td><td><span><input id="ctl00_cphHeading_rbtProctored_2" type="radio" name="ctl00$cphHeading$rbtProctored" value="Not-Available" /><label for="ctl00_cphHeading_rbtProctored_2">Not-Available</label></span></td>
+					</tr>
+				</table>
+                                        <span id="ctl00_cphHeading_RequiredFieldValidator2" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                    
+			</div>
+                                </td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td scope='col'>
+                                    <b>Course Duration</b>
+                                </td>
+                                <td scope='col'>
+                                    <input name="ctl00$cphHeading$txtCourseDuration" type="text" id="ctl00_cphHeading_txtCourseDuration" class="form-control" style="height:30px;width:90%;" />
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator5" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td scope='col'>
+                                    <b>Applicable MOOC/Certificate Course Fee (INR)</b>
+                                </td>
+                                <td scope='col'>
+                                    <input name="ctl00$cphHeading$txtCourseFee" type="text" maxlength="5" id="ctl00_cphHeading_txtCourseFee" class="form-control" onkeydown="return (!(event.keyCode>=65) &amp;&amp; event.keyCode!=32);" style="height:30px;width:90%;" />
+                                    
+                                </td>
+                            </tr>
+                            <tr style="display: none">
+                                <td scope='col'>
+                                    <b>Is Shareable Certificate Available Or Not?</b>
+                                </td>
+                                <td scope='col'>
+                                    <select name="ctl00$cphHeading$ddlCertificateAvailable" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$cphHeading$ddlCertificateAvailable\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_cphHeading_ddlCertificateAvailable" class="form-control" style="width:40%;">
+				<option value="Yes">Yes</option>
+				<option value="No">No</option>
+
+			</select>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator14" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td scope='col'>
+                                    <b>Is the content of the MOOC/Certification similar/mapped to any course of your upcoming term(s) </b>
+                                </td>
+                                <td scope='col'>
+                                    <select name="ctl00$cphHeading$ddlIsCourseMapped" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$cphHeading$ddlIsCourseMapped\&#39;,\&#39;\&#39;)&#39;, 0)" id="ctl00_cphHeading_ddlIsCourseMapped" class="form-control" style="width:40%;">
+				<option selected="selected" value="true">Yes</option>
+				<option value="false">No</option>
+
+			</select>
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator1" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+
+                         
+                            <tr>
+                                <td scope='col'><span class="text-danger" style="font-size: large;">*</span>
+                                    <b>Percentage Mapping of Course Syllabus with MOOC/Certificate course syllabus </b>
+                                </td>
+                                <td scope='col'>
+                                    <input name="ctl00$cphHeading$txtSyllabus" type="text" maxlength="3" id="ctl00_cphHeading_txtSyllabus" class="form-control" style="height:30px;width:40%;" />
+                                    
+                                    
+                                    <span id="ctl00_cphHeading_RequiredFieldValidator15" class="aspRequiredFieldValidator" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr style="display: none;">
+                                <td scope='col'>
+                                    <b>What are possible academic/ career benefits of pursuing this MOOC/Certification Course</b>
+                                </td>
+                                <td scope='col'>
+                                    <textarea name="ctl00$cphHeading$txtBenefits" rows="2" cols="20" id="ctl00_cphHeading_txtBenefits" class="form-control" style="height:80px;width:90%;">
+</textarea>
+                                    
+                                </td>
+                            </tr>
+                            
+                            <tr style="display: none;">
+                                <td scope='col'>
+                                    <b>Highlight the common syllabus topic and upload the highlighted<br />
+                                        PDF course syllabus file</b>
+                                </td>
+                                <td scope='col'>
+                                    <div id="ctl00_cphHeading_Panel1">
+				
+                                        <input type="file" name="ctl00$cphHeading$FileUpload" id="ctl00_cphHeading_FileUpload" class="aspFileUpload" ValidationGroup="Upload" style="font-family: Verdana; font-size: 9pt" />
+                                        
+                                    
+			</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" colspan="2" scope='col'>
+                                    <input type="submit" name="ctl00$cphHeading$btnUpload" value="Save" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$cphHeading$btnUpload&quot;, &quot;&quot;, true, &quot;Upload&quot;, &quot;&quot;, false, false))" id="ctl00_cphHeading_btnUpload" class="btn btn-danger" />
+
+                                    <input type="submit" name="ctl00$cphHeading$btnReset" value="Reset" id="ctl00_cphHeading_btnReset" class="btn btn-danger" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                
+		</div>
+            <div id="ctl00_cphHeading_updProgress" style="display:none;">
+			
+                    <div id="ctl00_cphHeading_Div1" class="progress">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%" style="height: 100%;">
+                            <tr>
+                                <td style="text-align: center !important; vertical-align: middle !important">
+                                    <img alt="progress" src="imgs/loading.gif" height="60px" width="60px" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                
+		</div>
+            
+        
+	</div><div id="ctl00_cphHeading_View" class="rmpView rmpHidden">
+		
+            <
+        
+	</div><input id="ctl00_cphHeading_RadMultiPage1_ClientState" name="ctl00_cphHeading_RadMultiPage1_ClientState" type="hidden" />
+</div>
+    
+
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            
+            </div>
+
+        </div>
+        
+    </br>
+    </br>
+    <h2  style="display:absolute ; text-align: center; color: Blue; margin: 10px; padding: 10px;"> Nptel Moocs course</h2>
+    </br>
+        <table cellspacing="0" border="1">
+            <colgroup width="80"></colgroup>
+            <colgroup width="450"></colgroup>
+            <colgroup width="496"></colgroup>
+            <colgroup width="277"></colgroup>
+            <colgroup width="284"></colgroup>
+            <colgroup width="166"></colgroup>
+            <colgroup width="636"></colgroup>
+            <tr>
+                <td height="24" align="left" valign=bottom><b><font size=4 color="#000000">S No</font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Course  Name </font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Course link</font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Enrollment Ends</font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Exam Registration Ends</font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Exam Date</font></b></td>
+                <td align="left" valign=bottom><b><font size=4 color="#000000">Remarks</font></b></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="1" sdnum="1033;"><font color="#000000">1</font></td>
+                <td align="left" valign=bottom><font color="#000000">Advanced Distributed Systems</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs99/preview">https://onlinecourses.nptel.ac.in/noc24_cs99/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45592" sdnum="1033;1033;D-MMM"><font color="#000000">27-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="2" sdnum="1033;"><font color="#000000">2</font></td>
+                <td align="left" valign=bottom><font color="#000000">Algorithmic Game Theory</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs109/preview">https://onlinecourses.nptel.ac.in/noc24_cs109/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45592" sdnum="1033;1033;D-MMM"><font color="#000000">27-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="3" sdnum="1033;"><font color="#000000">3</font></td>
+                <td align="left" valign=bottom><font color="#000000">Cloud Computing</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs118/preview">https://onlinecourses.nptel.ac.in/noc24_cs118/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45599" sdnum="1033;1033;D-MMM"><font color="#000000">3-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Cloud Computing &quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="4" sdnum="1033;"><font color="#000000">4</font></td>
+                <td align="left" valign=bottom><font color="#000000">Computer Vision</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs124/preview">https://onlinecourses.nptel.ac.in/noc24_cs124/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45599" sdnum="1033;1033;D-MMM"><font color="#000000">3-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="5" sdnum="1033;"><font color="#000000">5</font></td>
+                <td align="left" valign=bottom><font color="#000000">Cyber Security and Privacy</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs121/preview">https://onlinecourses.nptel.ac.in/noc24_cs121/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45599" sdnum="1033;1033;D-MMM"><font color="#000000">3-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="6" sdnum="1033;"><font color="#000000">6</font></td>
+                <td align="left" valign=bottom><font color="#000000">Deep Learning - IIT Ropar</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs114/preview">https://onlinecourses.nptel.ac.in/noc24_cs114/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45598" sdnum="1033;1033;D-MMM"><font color="#000000">2-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="7" sdnum="1033;"><font color="#000000">7</font></td>
+                <td align="left" valign=bottom><font color="#000000">Deep Learning for Computer Vision</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs89/preview">https://onlinecourses.nptel.ac.in/noc24_cs89/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="8" sdnum="1033;"><font color="#000000">8</font></td>
+                <td align="left" valign=bottom><font color="#000000">Design &amp; Implementation of Human-Computer Interfaces</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs126/preview">https://onlinecourses.nptel.ac.in/noc24_cs126/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45598" sdnum="1033;1033;D-MMM"><font color="#000000">2-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Only for B.Tech CSE</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="9" sdnum="1033;"><font color="#000000">9</font></td>
+                <td align="left" valign=bottom><font color="#000000">Ethical Hacking</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs94/preview">https://onlinecourses.nptel.ac.in/noc24_cs94/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="10" sdnum="1033;"><font color="#000000">10</font></td>
+                <td align="left" valign=bottom><font color="#000000">Introduction to Industry 4.0 and Industrial Internet of Things</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs95/preview">https://onlinecourses.nptel.ac.in/noc24_cs95/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="11" sdnum="1033;"><font color="#000000">11</font></td>
+                <td align="left" valign=bottom><font color="#000000">Introduction to Internet of Things</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs115/preview">https://onlinecourses.nptel.ac.in/noc24_cs115/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45598" sdnum="1033;1033;D-MMM"><font color="#000000">2-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Internet of Things&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="23" align="center" valign=bottom sdval="12" sdnum="1033;"><font color="#000000">12</font></td>
+                <td align="left" valign=bottom><font color="#000000">Introduction to Machine Learning</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/">Three courses are there.</a></font></u></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="13" sdnum="1033;"><font color="#000000">13</font></td>
+                <td align="left" valign=bottom><font color="#000000">Parameterized Algorithms</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs117/preview">https://onlinecourses.nptel.ac.in/noc24_cs117/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45599" sdnum="1033;1033;D-MMM"><font color="#000000">3-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="14" sdnum="1033;"><font color="#000000">14</font></td>
+                <td align="left" valign=bottom><font color="#000000">Practical Cyber Security for Cyber Security Practitioners</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs85/preview">https://onlinecourses.nptel.ac.in/noc24_cs85/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Cyber Security&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="15" sdnum="1033;"><font color="#000000">15</font></td>
+                <td align="left" valign=bottom><font color="#000000">Randomized Methods in Complexity</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs100/preview">https://onlinecourses.nptel.ac.in/noc24_cs100/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45592" sdnum="1033;1033;D-MMM"><font color="#000000">27-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="16" sdnum="1033;"><font color="#000000">16</font></td>
+                <td align="left" valign=bottom><font color="#000000">Reinforcement Learning</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs102/preview">https://onlinecourses.nptel.ac.in/noc24_cs102/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45592" sdnum="1033;1033;D-MMM"><font color="#000000">27-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="17" sdnum="1033;"><font color="#000000">17</font></td>
+                <td align="left" valign=bottom><font color="#000000">Responsible &amp; Safe AI Systems</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs132/preview">https://onlinecourses.nptel.ac.in/noc24_cs132/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45598" sdnum="1033;1033;D-MMM"><font color="#000000">2-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Machine Learning&quot; as Engineering Minor</font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="18" sdnum="1033;"><font color="#000000">18</font></td>
+                <td align="left" valign=bottom><font color="#000000">Social Network Analysis</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs90/preview">https://onlinecourses.nptel.ac.in/noc24_cs90/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="19" sdnum="1033;"><font color="#000000">19</font></td>
+                <td align="left" valign=bottom><font color="#000000">Social Networks</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs120/preview">https://onlinecourses.nptel.ac.in/noc24_cs120/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45599" sdnum="1033;1033;D-MMM"><font color="#000000">3-Nov</font></td>
+                <td align="left" valign=bottom><font color="#000000"><br></font></td>
+            </tr>
+            <tr>
+                <td height="19" align="center" valign=bottom sdval="20" sdnum="1033;"><font color="#000000">20</font></td>
+                <td align="left" valign=bottom><font color="#000000">Software Testing</font></td>
+                <td align="left" valign=bottom><u><font color="#467886"><a href="https://onlinecourses.nptel.ac.in/noc24_cs91/preview">https://onlinecourses.nptel.ac.in/noc24_cs91/preview</a></font></u></td>
+                <td align="center" valign=bottom sdval="45502" sdnum="1033;1033;D-MMM"><font color="#000000">29-Jul</font></td>
+                <td align="center" valign=bottom sdval="45520" sdnum="1033;1033;D-MMM"><font color="#000000">16-Aug</font></td>
+                <td align="center" valign=bottom sdval="45591" sdnum="1033;1033;D-MMM"><font color="#000000">26-Oct</font></td>
+                <td align="left" valign=bottom><font color="#000000">Not for Students who are registered in &quot;Software Methodologies and Testing&quot; as Engineering Minor</font></td>
+            </tr>
+        </table>
+</body>
+</html>
